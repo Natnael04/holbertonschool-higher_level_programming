@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 class Square:
-    """creating an empty class."""
+    """creating an empty class.
+    """
+    ...
