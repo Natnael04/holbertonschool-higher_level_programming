@@ -13,5 +13,5 @@ class Square:
             raise (TypeError)
         else:
             if size < 0:
-                raise (Exception("size mmust be >= 0"))
+                raise (Exception("size must be >= 0"))
                 raise (ValueError)
