@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" to write a class """
 class MyList(list):
     pass
 
