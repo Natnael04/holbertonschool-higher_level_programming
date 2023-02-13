@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 from models.base import Base
-"""creating  a rectangle class"""
+"""creating  a rectangle of base"""
 
 
 class Rectangle(Base):
     pass
-    """declaring private instance attribute"""
+    """declaring private class attribute"""
     __nb_objects = 0
-    """define private instance attribute"""
+    """define private class attribute"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
         if id is not None:
