@@ -21,7 +21,7 @@ class Rectangle(Base):
         else:
             Rectangle.__nb_objects += 1
             self.id = Rectangle.__nb_objects
-
+    """define get width function"""
     def getwidth(self):
         return self.width
 
