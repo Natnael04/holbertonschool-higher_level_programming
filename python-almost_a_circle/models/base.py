@@ -3,8 +3,9 @@
 
 
 class Base:
+    """declaring private class attribute"""
     __nb_objects = 0
-    """create private class attribute"""
+    """define private class attribute"""
 
     def __init__(self, id=None):
         if id is not None:
