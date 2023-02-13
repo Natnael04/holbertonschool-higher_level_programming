@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """importing base from base file."""
 from models.base import Base
-"""creating  a rectangle of base."""
+
+"""creating a rectangle of class "Base" """
 
 
 class Rectangle(Base):
