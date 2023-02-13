@@ -24,31 +24,39 @@ class Rectangle(Base):
 
     def getwidth(self):
         return self.width
-    """define private instance attribute with getter"""
+    """define private instance attribute with setter"""
 
     def setwidth(self, value):
         self.width = value
+    """define private instance attribute with getter"""
 
     def getheight(self):
         return self.height
+    """define private instance attribute with setter"""
 
     def setheight(self, value):
         self.height = value
+    """define private instance attribute with getter"""
 
     def getx(self):
         return self.x
+    """define private instance attribute with setter"""
 
     def setx(self, value):
         self.x = value
+    """define private instance attribute with getter"""
 
     def gety(self):
         return self.y
+    """define private instance attribute with setter"""
 
     def sety(self, value):
         self.y = value
+    """define private instance attribute with getter"""
 
     def getid(self):
         return self.id
+    """define private instance attribute with setter"""
 
     def setid(self, value):
         self.id = value
