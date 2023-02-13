@@ -21,23 +21,18 @@ class Rectangle(Base):
         else:
             Rectangle.__nb_objects += 1
             self.id = Rectangle.__nb_objects
-    """define private instance attribute with getter."""
 
     def getwidth(self):
         return self.width
-    """define private instance attribute with setter."""
 
     def setwidth(self, value):
         self.width = value
-    """define private instance attribute with getter."""
 
     def getheight(self):
         return self.height
-    """define private instance attribute with setter."""
 
     def setheight(self, value):
         self.height = value
-    """define private instance attribute with getter."""
 
     def getx(self):
         return self.x
