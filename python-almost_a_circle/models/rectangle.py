@@ -6,8 +6,7 @@ from models.base import Base
 
 
 class Rectangle(Base):
-    pass
-    """declaring private class attribute."""
+    """creating rectangle class"""
     __nb_objects = 0
     """define private class attribute."""
 
