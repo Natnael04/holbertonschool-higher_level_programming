@@ -3,7 +3,7 @@
 """
 from models.base import Base
 
-"""creating a rectangle of class "Base". 
+"""creating a rectangle of class "Base".
 """
 
 
