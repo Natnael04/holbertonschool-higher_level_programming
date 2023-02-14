@@ -30,13 +30,13 @@ class Rectangle(Base):
         """
         getting self width of the Rectangle.
         """
-        return self.width
+        return self.__width
 
     def setwidth(self, value):
         """
         setting self width of the Rectangle.
         """
-        self.width = value
+        self.__width = value
 
     def getheight(self):
         """
