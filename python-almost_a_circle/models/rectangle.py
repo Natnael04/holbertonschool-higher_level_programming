@@ -15,16 +15,16 @@ class Rectangle(Base):
     """
 
     def __init__(self, width, height, x=0, y=0, id=None):
-        if id is not None:
-
+        
             self.width = width
             self.height = height
             self.x = x
             self.y = y
-            self.id = id
-        else:
-            Rectangle.__nb_objects += 1
-            self.id = Rectangle.__nb_objects
+            if id is not None:
+              self.id = id
+            else:
+              Rectangle.__nb_objects += 1
+              self.id = Rectangle.__nb_objects
 
     def getwidth(self):
         """
