@@ -36,7 +36,7 @@ class Rectangle(Base):
         """
         setting self width of the Rectangle.
         """
-        self.width = value
+        self.__width = value
 
     def getheight(self):
         """
@@ -48,7 +48,7 @@ class Rectangle(Base):
         """
         setting self height of the Rectangle.
         """
-        self.height = value
+        self.__height = value
 
     def getx(self):
         """
@@ -60,7 +60,7 @@ class Rectangle(Base):
         """
         setting self x of the Rectangle.
         """
-        self.x = value
+        self.__x = value
 
     def gety(self):
         """
@@ -72,4 +72,4 @@ class Rectangle(Base):
         """
         setting self y of the Rectangle.
         """
-        self.y = value
+        self.__y = value
