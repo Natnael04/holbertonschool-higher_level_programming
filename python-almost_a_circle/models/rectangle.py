@@ -26,9 +26,11 @@ class Rectangle(Base):
             Rectangle.__nb_objects += 1
             self.id = Rectangle.__nb_objects
 
-    """getting self width of the Rectangle."""
 
     def getwidth(self):
+        """
+        getting self width of the Rectangle.
+        """
         return self.width
 
     def setwidth(self, value):
