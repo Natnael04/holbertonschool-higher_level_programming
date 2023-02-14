@@ -15,61 +15,61 @@ class Rectangle(Base):
     """
 
     def __init__(self, width, height, x=0, y=0, id=None):
-        
-            self.width = width
-            self.height = height
-            self.x = x
-            self.y = y
-            if id is not None:
-              self.id = id
-            else:
-              Rectangle.__nb_objects += 1
-              self.id = Rectangle.__nb_objects
 
-    def getwidth(self):
+        self.width = width
+        self.height = height
+        self.x = x
+        self.y = y
+        if id is not None:
+            self.id = id
+        else:
+            Rectangle.__nb_objects += 1
+            self.id = Rectangle.__nb_objects
+
+    def get__width(self):
         """
         getting self width of the Rectangle.
         """
-        return self.width
+        return self.__width
 
-    def setwidth(self, value):
+    def set__width(self, value):
         """
         setting self width of the Rectangle.
         """
-        self._width = value
+        self.__width = value
 
-    def getheight(self):
+    def get__height(self):
         """
         getting self height of the Rectangle.
         """
-        return self.height
+        return self.__height
 
-    def setheight(self, value):
+    def set__height(self, value):
         """
         setting self height of the Rectangle.
         """
-        self._height = value
+        self.__height = value
 
-    def getx(self):
+    def get__x(self):
         """
         getting self x of the Rectangle.
         """
-        return self.x
+        return self.__x
 
-    def setx(self, value):
+    def set__x(self, value):
         """
         setting self x of the Rectangle.
         """
-        self._x = value
+        self.__x = value
 
-    def gety(self):
+    def get__y(self):
         """
         getting self y of the Rectangle.
         """
-        return self.y
+        return self.__y
 
-    def sety(self, value):
+    def set__y(self, value):
         """
         setting self y of the Rectangle.
         """
-        self._y = value
+        self.__y = value
