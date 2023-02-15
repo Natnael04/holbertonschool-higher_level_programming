@@ -130,4 +130,10 @@ class Rectangle(Base):
     def __str__(self):
         """to overide the str method to return.
         """
-        return f'[Rectangle] ({self.id}) {self.x}/{self.y} - {self.width}/{self.height}'
+        return '[Rectangle] ({}) {}/{} - {}/{}'.format(
+            self.id,
+            self.x,
+            self.y,
+            self.width,
+            self.height
+        )
