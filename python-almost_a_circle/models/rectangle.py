@@ -120,6 +120,8 @@ class Rectangle(Base):
         return (self.height * self.width)
 
     def display(self):
+        """to prints in stdout the Rectangle instance with the character.
+        """
         for j in range(0, self.height):
             for j in range(0, self.width):
                 print('#', end="")
