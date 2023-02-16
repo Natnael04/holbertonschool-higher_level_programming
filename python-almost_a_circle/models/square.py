@@ -19,4 +19,9 @@ class Square(Rectangle):
     def __str__(self):
         """the overloading str method to return.
         """
-        return ('[Square] ({}) {}/{} - {}'.format(self.id, self.x, self.y, self.size))
+        return '[Square] ({}) {}/{} - {}'.format(
+            self.id,
+            self.x,
+            self.y,
+            self.size
+        )
