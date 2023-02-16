@@ -20,8 +20,8 @@ class Base:
     def to_json_string(list_dictionaries):
         """to return to json format representation.
         """
-        json_string = json.dumps(list_dictionaries)
+        to_json_string = json.dumps(list_dictionaries)
         if list_dictionaries is None:
             return ("[]")
         else:
-            return json_string
+            return to_json_string
