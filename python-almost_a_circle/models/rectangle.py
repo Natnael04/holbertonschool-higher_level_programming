@@ -185,7 +185,10 @@ class Rectangle(Base):
                     self.x = v
                 elif k == "y":
                     self.y = v
-    
+
     def to_dictionary(self):
-        d = {'x': self.x, 'y': self.y, 'id': self.id, 'height': self.height, 'width': self.width, }
+        """to return the dictionary representation of a rectangle.
+        """
+        d = {'x': self.x, 'y': self.y, 'id': self.id,
+             'height': self.height, 'width': self.width, }
         return d
