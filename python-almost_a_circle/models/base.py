@@ -42,7 +42,7 @@ class Base:
         """
         if json_string is None:
             return ("[]")
-        elif json_string == "":
+        elif json_string == "[]":
             return ("[]")
         else:
             return json.loads(json_string)
