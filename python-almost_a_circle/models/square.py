@@ -70,7 +70,7 @@ class Square(Rectangle):
                     self.x = v
                 elif k == "y":
                     self.y = v
-
+    import json
     def to_dictionary(self):
         """to return the dictionary representation of a square.
         """
