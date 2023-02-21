@@ -41,7 +41,7 @@ class Base:
         """to return the list of the json string.
         """
         if json_string is None:
-            return ("[]")
+            return ("[",", ""]")
         elif json_string == "":
             return ("[]")
         else:
