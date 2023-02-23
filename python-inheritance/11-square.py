@@ -47,12 +47,18 @@ class Square(Rectangle):
 
     def __init__(self, size):
         """instantiaion"""
-        super().__init__(size, size)
+        self.integer_validator("size", size)
+        self.integer_validator("size", size)
+        self.__size = size
+        self.__size = size
+
+    def area(self):
+        return self.__size * self.__size
 
     def __str__(self):
         """print(square())"""
-        return super().__str__()
+        return '[Square] {}/{}'.format(self.__size, self.__size)
 
     def __repr__(self):
         """str(square())"""
-        return super().__repr__()
+        return '{}'.format(self)
