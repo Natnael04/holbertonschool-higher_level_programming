@@ -3,9 +3,9 @@
 
 
 class BaseGeometry:
-    """to create empty class"""
+    """to create empty class."""
     pass
-    """to raise Exception with message"""
+    """to raise Exception with message."""
 
     def area(self):
         """to raise an exception with message"""
