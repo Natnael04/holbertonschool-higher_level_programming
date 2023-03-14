@@ -1,4 +1,4 @@
 -- update the score
 UPDATE second_table
-SET Bob = 10
-WHERE score >= 10;
+SELECT score, name
+SET name = Bob, score = 10
