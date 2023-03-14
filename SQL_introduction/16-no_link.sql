@@ -2,4 +2,4 @@
 SELECT score, COUNT(*) AS name
 FROM second_table
 GROUP BY name
-ORDER BY score DESC;
+ORDER BY name DESC;
