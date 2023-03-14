@@ -1,3 +1,4 @@
 -- update the score
-UPDATE second_table
-SET name = "Bob", score = 10;
+second_table UPDATE
+SET name = "Bob", score = 10
+WHERE name = Bob;
