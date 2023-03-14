@@ -1,3 +1,4 @@
+-- lists number with same score
 SELECT score, number
 FROM second_table
 GROUP BY score
