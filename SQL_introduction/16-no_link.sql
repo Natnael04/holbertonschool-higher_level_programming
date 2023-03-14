@@ -1,6 +1,6 @@
 -- lists all record of the table by their group
-SELECT ANY_VALUE(score) AS score, ANY_VALUE(name) AS name
+SELECT score, name
 FROM second_table
-WHERE name
+WHERE name != ""
 GROUP BY name
 ORDER BY score DESC;
