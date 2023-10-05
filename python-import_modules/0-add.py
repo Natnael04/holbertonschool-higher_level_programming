@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import add_0
 def add(a, b):
     return a + b
 if __name__ == "__main__":
