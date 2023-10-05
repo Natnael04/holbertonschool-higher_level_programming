@@ -10,9 +10,12 @@ def add(a, b):
         The return value. a + b
     """
     return (a + b)
-if __name__ == "__0-add__":
+
+if __name__ == "__main__":
+    # Code here will only execute when this script is run directly, not when imported as a module
     a = 1
     b = 2
     result = add(a, b)
     print("{} + {} = {}".format(a, b, result))
+
     
