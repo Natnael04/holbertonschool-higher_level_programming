@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 from add_0 import add
 if __name__ == "__main__":
-    # Code here will only execute when this script is run directly, not when imported as a module
+    # Code here will only execute when this script is run
     a = 1
     b = 2
     result = add(a, b)
